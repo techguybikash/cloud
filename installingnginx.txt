@@ -1,0 +1,7 @@
+#installing nginx to an Ubuntu machine
+sudo apt-get update
+sudo apt-get install nginx-light -y
+
+#To update nginx html, you can use vi or nano editor. The below is with nano
+sudo nano /var/www/html/index.nginx-debian.html
+#When done do CTRL O, Enter, CTRL X
